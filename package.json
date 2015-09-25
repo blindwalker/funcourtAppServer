@@ -1,0 +1,33 @@
+{
+  "name": "funcourt_server",
+  "version": "1.0.0",
+  "description": "REST Server for CurriculumVitae App",
+  "main": "/server/server.js",
+  "scripts": {
+    "start": "node /server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blindwalker/funcourtAppServer.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Martin Kropf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blindwalker/funcourtAppServer/issues"
+  },
+  "homepage": "https://github.com/blindwalker/funcourtAppServer#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "connect": "^3.4.0",
+    "express": "^4.13.3",
+    "jwt-simple": "^0.3.0",
+    "mongoskin": "^0.6.1",
+    "morgan": "^1.6.1"
+  },
+  "engines": {
+    "node": "0.12.7"
+  }
+}
